@@ -93,3 +93,21 @@ header nav a:hover {
     color: rgb(100, 100, 100);
     text-decoration: none;
 }
+footer {
+    background-color: rgb(73, 76, 93);
+    text-align: center;
+    height: 120px;
+}
+footer h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
