@@ -76,7 +76,7 @@ header nav a:hover {
 }
 .wrapper {
     display: grid;
-    grid-template-columns: 341px 341px 341px;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
 .info {
