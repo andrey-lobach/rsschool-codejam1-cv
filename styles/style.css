@@ -53,3 +53,21 @@ header nav a:hover {
 .welcome1 img {
     margin-top: 580px;
 }
+.welcome2 {
+    height: 300px;
+    background-color: rgb(73, 76, 93);
+    text-align: center;
+}
+.welcome2-text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-top: 30px;
+}
+.welcome2-text p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 30px;
+}
+.welcome2 img {
+    margin-top: 46px;
+}
