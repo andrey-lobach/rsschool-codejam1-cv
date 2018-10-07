@@ -71,3 +71,25 @@ header nav a:hover {
 .welcome2 img {
     margin-top: 46px;
 }
+.about-me {
+    height: 359px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 341px 341px 341px;
+    text-align: center;
+}
+.info {
+    height: 150px;
+}
+.info h3 {
+    color: rgb(59, 59, 59);
+    font-size: 30px;
+}
+.info p {
+    color: rgb(182, 182, 182);
+}
+.info a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
