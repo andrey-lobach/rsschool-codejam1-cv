@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Abril Fatface';
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header {
+    height: 150px;
+    background-color: rgb(55, 58, 70);
+}
+header h1 {
+    color: rgb(255, 255, 255);
+    margin-left:50px;
+    font-size:50px;
+}
+header p {
+    margin: 5px 0 0 50px;
+    color: rgb(212, 179, 74);
+}
+header nav {
+    float: right;
+    margin-right: 70px;
+}
+header nav a {
+    font-size:30px;
+    margin-right: 20px;
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
+header nav a:hover {
+    color: rgb(255, 255, 255);
+}
+.welcome-firstpart {
+    height: 939px;
+    background-color: rgb(106, 109, 114);
+    background-image: url("../images/me.png");
+}
+.welcome-firstpart__text {
+    padding: 200px 0 0 50px;
+}
+.welcome-firstpart__text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.welcome-firstpart__text p {
+    color: rgb(212, 179, 74);
+    font-size: 20px;
+}
+.welcome-firstpart img {
+    margin-top: 580px;
+}
+.welcome-secondpart {
+    height: 300px;
+    background-color: rgb(73, 76, 93);
+    text-align: center;
+}
+.welcome-secondpart__text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-top: 30px;
+}
+.welcome-secondpart__text p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 30px;
+}
+.welcome-secondpart img {
+    margin-top: 46px;
+}
+.about-me {
+    height: 359px;
+}
+.about-me__info-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.about-me__info {
+    height: 150px;
+}
+.about-me__info h3 {
+    color: rgb(59, 59, 59);
+    font-size: 30px;
+}
+.about-me__info p {
+    color: rgb(182, 182, 182);
+}
+.about-me__info a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(73, 76, 93);
+    text-align: center;
+    height: 120px;
+}
+footer h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
